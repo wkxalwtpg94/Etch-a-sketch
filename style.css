@@ -3,3 +3,15 @@
 }
 
 
+.square_div {
+    width: 53px;
+    height: 53px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
