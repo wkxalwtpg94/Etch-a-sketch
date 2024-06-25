@@ -23,7 +23,6 @@ function createGrid(n) {
     all_squares.forEach((eachsquare) => {
         eachsquare.style.width = `${99/n}%`
         
-        
         eachsquare.addEventListener("mouseover", () => {
 
             eachsquare.style.backgroundColor = "blue";

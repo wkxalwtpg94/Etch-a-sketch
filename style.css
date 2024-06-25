@@ -8,10 +8,9 @@ html, body {
 }
 
 
+.squarediv {
+    aspect-ratio: 1 / 1;
 
-.square_div {
-   width: 52px;
-   height: 52px;
 }
 
 
@@ -20,7 +19,9 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     flex-shrink: 0;
+    aspect-ratio: 1/1;
     width: 99%
-    margin: auto;
+    margin: 0;
+    padding: 0;
     
 }
